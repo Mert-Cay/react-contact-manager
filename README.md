@@ -16,10 +16,3 @@ Modern web geliştirme standartlarına uygun olarak tasarlanmış, asenkron veri
 * **Routing:** React Router DOM
 * **HTTP İstemcisi:** Axios
 
-## 📂 Kurulum ve Çalıştırma
-
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
-
-1. Projeyi klonlayın:
-   ```bash
-   git clone [https://github.com/kullaniciadin/reponun-adi.git](https://github.com/kullaniciadin/reponun-adi.git)
