@@ -1,21 +1,25 @@
-# Gün Projesi: Contacts App
+# 📇 Contact Manager App (Kişi Yönetim Sistemi)
 
-Şirketteki bir uygulamada UX olarak 2 sorun bulundu.:
-1. Şirket içinde kullanılan Fihrist uygulamasında yeni kişi eklenince soldaki sideBar'da eklenen kişi listelenmiyor.
-2. Bir kişi silinince soldaki listeden çıkmıyor.
+Modern web geliştirme standartlarına uygun olarak tasarlanmış, asenkron veri yönetimi ve yönlendirme (routing) mimarilerinin uygulandığı Single Page Application (SPA) projesidir. Restful API üzerinden tam kapsamlı CRUD (Create, Read, Update, Delete) işlemleri gerçekleştirilmektedir.
 
-Bu problemi sana atadılar.
-Sen de bu şekildeki server state yönetimi en iyi yapabileceğin `@tanstack/react-query` ile yapmaya karar verdin.
+## 🚀 Proje Özellikleri
 
-@tanstack/react-query'i import ettin bile. Şimdi yapacakların:
+* **Gelişmiş State Management:** TanStack Query (React Query) kullanılarak sunucu durumu (server state) yönetimi, veri önbellekleme (caching) ve gereksiz render'ların önlenmesi sağlandı.
+* **Dinamik Yönlendirme:** React Router DOM ile sayfa yenilenmeden, akıcı bir şekilde bileşenler arası geçiş (Client-side routing) yapısı kuruldu.
+* **REST API Entegrasyonu:** Axios kullanılarak harici bir API (MockAPI) ile asenkron HTTP istekleri (GET, POST, DELETE) yönetildi.
+* **Kullanıcı Deneyimi:** Veri yüklenme (loading) ve hata (error) durumları UI üzerinde anlık olarak kontrol altına alındı.
 
-- [ ] QueryClientProviderı App.jsxe eklemek.
-- [ ] SideBarda tüm contactları çekmek için queryi yazmak. (useEffect'i silmelisin)
-- [ ] Contact componentinde pathden aldığın contactId için query yazmak.(useEffect'i silmelisin)
-- [ ] Contact componentinde adamı silmek için mutation yazmak.
+## 🛠️ Kullanılan Teknolojiler
 
-**Dikkat**
+* **Frontend Framework:** React.js (Vite)
+* **Asenkron Veri Yönetimi:** TanStack Query (React Query)
+* **Routing:** React Router DOM
+* **HTTP İstemcisi:** Axios
 
-- Yeni kişi eklediğinde Home sayfasına yönlenmeli
-- Bir kişi silindiğinde Home sayfasına yönlenmeli
-- Kodlar `tanStack.js` dosyasına yazılmalı.
+## 📂 Kurulum ve Çalıştırma
+
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. Projeyi klonlayın:
+   ```bash
+   git clone [https://github.com/kullaniciadin/reponun-adi.git](https://github.com/kullaniciadin/reponun-adi.git)
