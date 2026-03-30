@@ -16,3 +16,19 @@ Modern web geliştirme standartlarına uygun olarak tasarlanmış, asenkron veri
 * **Routing:** React Router DOM
 * **HTTP İstemcisi:** Axios
 
+## 📂 Kurulum ve Çalıştırma
+
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. Projeyi klonlayın:
+  ---bash
+  git clone [https://github.com/Mert-Cay/react-contact-manager.git](https://github.com/Mert-Cay/react-contact-manager.git)
+
+2.Proje dizinine girin:
+  cd reponun-adi
+
+3.Gerekli paketleri yükleyin:
+  npm install
+
+4.Geliştirme sunucusunu başlatın: 
+  npm run dev
